@@ -2,72 +2,13 @@
         padding:0;
         margin:0;
     }
-        /* .carousel - section  */
+/* .carousel - section  */
     .style1{
             font-family: 'Lobster', cursive;
         }
-    @media screen and (min-width: 480px) {
-        .image1{
-        width: 100%;
-        height: 400px;
-        }
-    }
-    @media screen and (min-width: 768px) {
-        .image1{
-        width: 100%;
-        height: 630px;
-        }
-        .mobileSize1{
-            display: none; 
-        }
-    }
-    @media screen and (min-width: 1024px) {
-        .image1{
-            width: 100%;
-            height: 730px;
-        }
-        .mobileSize1{
-            display: none;
-        }
-    }
-    @media screen and (min-width: 480px) {
-        .image2{
-        width: 100%;
-        height: 400px;
-        }
-    }
-    @media screen and (min-width: 768px) {
-        .image2{
-        width: 100%;
-        height: 630px;
-        }
-    }
-    @media screen and (min-width: 1024px) {
-        .image2{
-            width: 100%;
-            height: 730px;
-        }
-    }
-    @media screen and (min-width: 480px) {
-        .image3{
-        width: 100%;
-        height: 400px;
-        }
-    }
-    @media screen and (min-width: 768px) {
-        .image3{
-        width: 100%;
-        height: 630px;
-        }
-    }
-    @media screen and (min-width: 1024px) {
-        .image3{
-            width: 100%;
-            height: 730px;
-        }
-    }
+
 /* about-us section  */
-    #aboutUs{
+    /* #aboutUs{
         background-image: url("../image/products/coffee_171653.jpg");
         position: relative;
         background-repeat: no-repeat;
@@ -76,11 +17,11 @@
         background-position:center;
         width: 100%;
         height: 100vh;
-            }
-    .oval{
+            } */
+    /* .oval{
         margin-top:450px;
         font-family: 'Lobster', cursive;
-            }
+            } */
 /* scroll button */
     .scroll-wrapper {
         text-align:center;
@@ -146,5 +87,120 @@
     }
     .products .card:hover img{
         transform: scale(1.2);
+    } 
+          
+/* media query  */
+    @media screen and (min-width: 480px) {
+        .image1{
+            width: 100%;
+            height: 400px;
+        }
+        .image2{
+            width: 100%;
+            height: 400px;
+            }
+        .image3{
+            width: 100%;
+            height: 400px;
+            }
+        .mobileSize1{
+            display: block; 
+        }
+        #aboutUs{
+            background-image: url("../image/products/coffee_171653.jpg");
+            position: relative;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size:cover;
+            background-position:center;
+            /* width: 100%; */
+            /* height: 100vh; */
+                }
+        .oval{
+            margin-top:200px;
+            font-family: 'Lobster', cursive;
+           padding: 25px;
+            font-size:12px;
+                } 
+        .Utu{
+            width: 400px;
+            height: 280px;
+            margin-bottom: 25px;
+        }
+     
     }
+    @media screen and (min-width: 768px) {
+        .image1{
+            width: 100%;
+            height: 630px;
+        }
+        .image2{
+            width: 100%;
+            height: 630px;
+            }
+        .image3{
+            width: 100%;
+            height: 630px;
+            }
+           
+        .mobileSize1{
+            display: none; 
+        }
+        #aboutUs{
+            background-image: url("../image/products/coffee_171653.jpg");
+            position: relative;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size:cover;
+            background-position:center;
+            width: 100%;
+            height: 100vh;
+                } 
+        .oval{
+            margin-top:400px;
+            font-family: 'Lobster', cursive;
+            padding: 35px;
+            font-size:20px;
+                } 
+        .Utu{
+            width: 500px;
+            height: 300px;
+        }
 
+    }
+    @media screen and (min-width: 1024px) {
+        .image1{
+            width: 100%;
+            height: 730px;
+        }
+        .image2{
+            width: 100%;
+            height: 730px;
+        }
+        .image3{
+            width: 100%;
+            height: 730px;
+        }
+        #aboutUs{
+            background-image: url("../image/products/coffee_171653.jpg");
+            position: relative;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size:cover;
+            background-position:center;
+            width: 100%;
+            height: 100vh;
+                } 
+        .oval{
+            margin-top:400px;
+            font-family: 'Lobster', cursive;
+            padding: 50px;
+            font-size:30px;
+                } 
+        .Utu{
+            width: 500px;
+            height: 300px;
+        }
+
+    }
+    
