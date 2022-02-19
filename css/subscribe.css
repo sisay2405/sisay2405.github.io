@@ -6,7 +6,7 @@ body {
     }
 #subscribe{
     background: rgba(0,0,0,0.5);
-    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
 }
 @keyframes fall{
     0%{
@@ -17,7 +17,7 @@ body {
     }
 }
 .coffee .coffee1{
-    left:0%; 
+    left:10%; 
     animation:fall 4s linear infinite ;
     position:absolute ;
     width: 100%;
