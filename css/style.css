@@ -7,21 +7,7 @@
             font-family: 'Lobster', cursive;
         }
 
-/* about-us section  */
-    /* #aboutUs{
-        background-image: url("../image/products/coffee_171653.jpg");
-        position: relative;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size:cover;
-        background-position:center;
-        width: 100%;
-        height: 100vh;
-            } */
-    /* .oval{
-        margin-top:450px;
-        font-family: 'Lobster', cursive;
-            } */
+ 
 /* scroll button */
     .scroll-wrapper {
         text-align:center;
@@ -86,7 +72,7 @@
         transition: 0.3s;
     }
     .products .card:hover img{
-        transform: scale(1.2);
+        transform: scale(1.1);
     } 
           
 /* media query  */
